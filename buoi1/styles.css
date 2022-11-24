@@ -1,0 +1,34 @@
+#a{
+    background-color: rgb(26, 255, 0);   
+    padding-right: 30px;
+    border: 10px solid black;
+    margin: 50px;
+}
+.b{
+    background-color: rgb(225, 3, 3);
+    padding: 30px;
+    border: 10px solid black;
+    margin: 50px;
+}
+.c{
+    display: inline;
+    /* mặc định với span, a, strong, b, i... */
+    
+  }
+
+span .a {
+    display: block;
+    
+  }
+
+  span.c {
+    display: inline-block;
+    
+  }
+  khai báo trong html
+
+  <div class="a"> Day la noi dung trong thẻ div </div>
+  <div id ="a"> </div>
+
+  class sẽ thay thế bằng dấu . trong css
+  id sẽ thay thế bằng chữ # ở trong css

@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    text-decoration: none;
+    outline: none;
+    border: none;
+  }
+  body{
+    background-color: pink;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .nav {
+    color: #fff !important;
+    background-color: #000 !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  .navbar-item {
+    color: #fff;
+    padding: 12px 16px;
+    height: 100%;
+  }
+  
+  .navbar-item:hover {
+    background-color: rgb(226, 221, 215);
+    color: #000;
+  }
+  a{
+    color: #fff;
+    padding:40px;
+    font-size:20px;
+  }
+ 
